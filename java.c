@@ -7,6 +7,7 @@ class Test{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String in = new String();
 		System.out.println("എന്തെങ്കിലും ടൈപ്പ് ചെയ്യൂ സാറേ\n");
+		System.out.ptintln("DEEPU\n");
 
 		try{
 		in = br.readLine();
