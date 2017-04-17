@@ -1,7 +1,1 @@
-# repo1
-Learning GIT
-
-
-
-
-created in my own repository
+Added program for calculator
