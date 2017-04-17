@@ -6,7 +6,7 @@ class Test{
 	public static void main(String args[]){
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String in = new String();
-		System.out.println("Awaiting user input:\n");
+		System.out.println("എന്തെങ്കിലും ടൈപ്പ് ചെയ്യൂ സാറേ\n");
 
 		try{
 		in = br.readLine();
