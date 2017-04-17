@@ -1,11 +1,10 @@
 //print hello world
 //dhahla
-//Pull request rejected dhahla :P
 
 class Hello
 {
     public static void main(String[] args)
     {
-	    System.out.println("Hello World");
+	    System.out.println("Hello World  from Dhahla kk");
     }
 }
