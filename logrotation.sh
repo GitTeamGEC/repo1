@@ -10,6 +10,6 @@ then
 		echo "$(tail $filename)" > $filename
 		cat $filename
 	else
-		echo "File does not exist"
+		echo "File illedey"
 	fi
 fi
