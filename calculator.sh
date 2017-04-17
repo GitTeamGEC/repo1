@@ -14,15 +14,17 @@ echo "4.Division"
 echo "Enter your choice"
 read ch
 case $ch in
-   1)sum=$((n1+n2))
--   echo "sum = "$sum;;
--   2)sum=$((n1-n2))
--      echo "difference = "$sum;;
-   4) product=`expr $n1*$n2`
-      echo "product = "$product;; 
-   
-   
+    1)sum=$((n1 + n2))
+     echo "Sum = "$sum;;
+    2)sum=$((n1 - n2))
+     echo "Sub = "$sum;;
+    3)sum=$((n1 * n2))
+     echo "Mul = "$sum;;
+    4)sum=$((n1 / n2))
+     echo "Div = "$sum;;
+    *)echo "Invalid choice";;
 esac
+
 echo "another ? [y/n]"
 read i
 if [ $i != "y" ]
