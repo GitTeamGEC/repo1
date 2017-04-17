@@ -6,7 +6,7 @@ class Test{
 	public static void main(String args[]){
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String in = new String();
-		System.out.println("Awaiting user input:\n");
+		System.out.println("താങ്കളുടെ ഇൻപുട്ടിനായി കാത്തിരിക്കുന്നു:\n");
 
 		try{
 		in = br.readLine();
