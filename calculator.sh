@@ -16,7 +16,8 @@ read ch
 case $ch in
    1)sum=$((n1+n2))
    echo "sum = "$sum;;
-   
+   2)sum=$((n1-n2))
+      echo "difference = "$sum;;
    
    
    
